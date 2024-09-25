@@ -1,0 +1,46 @@
+ body {
+    font-family: Verdana, Arial, Helvetica, sans-serif;
+    width: 90%;
+    background: white;
+    margin: 0 auto;
+    paddding: 0;
+    border: 3px solid black;
+    box-shadow: 0 9px 18px 9px;
+}
+footer {
+    clear: both;
+    border-top: 2px solid black;
+    padding: 15px;
+    background-image: linear-gradient(45deg, 
+         black 0%, orange 25%, white 100%);   
+   
+}
+h1, h3 {
+    text-align: center;
+}
+
+h1 {
+    color: purple;
+}
+h2, h3, h4 {
+    color: #e8a838;
+}
+header h2 {
+    font-size: 230%;
+}
+header h3 {
+    font-size: 125%;
+    padding-bottom: 15px;
+}
+aside {
+    float: left;
+    width: 160px;
+    padding: 20px 0; 
+}
+img {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%; 
+    height: auto; 
+}
